@@ -10,4 +10,5 @@ import TextUI from "./text";
 import ChipUI from "./chip";
 import NavbarUI from "./navbar";
 import LinkUI from "./link";
-export { LinkUI, NavbarUI, ChipUI, TextUI, ButtonUI, CardUI, ImageUI, InputUI, ModalUI, PopoverUI, SwitchUI, BreadCrumbUI };
+import TopHeaderUI from "./top-header";
+export { TopHeaderUI, LinkUI, NavbarUI, ChipUI, TextUI, ButtonUI, CardUI, ImageUI, InputUI, ModalUI, PopoverUI, SwitchUI, BreadCrumbUI };

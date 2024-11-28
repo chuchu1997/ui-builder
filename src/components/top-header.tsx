@@ -29,6 +29,7 @@ const TopHeaderUI = ({ opening, phone, mail, facebookLink, youtubeLink, linkedIn
 
           <div className="flex items-center gap-2">
             <EnvelopeIcon className="size-4" />
+            <h2>AA</h2>
             <TextUI tag={"p"} children={mail} fontSize="text-sm" />
           </div>
         </div>

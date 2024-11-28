@@ -21,7 +21,6 @@ const TopHeaderUI = ({ opening, phone, mail, facebookLink, youtubeLink, linkedIn
             <ClockIcon className="size-4" />
             <TextUI tag={"p"} children={opening} fontSize="text-sm" />
           </div>
-
           <div className="flex items-center gap-2">
             <PhoneIcon className="size-4" />
             <TextUI tag={"p"} children={phone} fontSize="text-sm" />
@@ -29,7 +28,6 @@ const TopHeaderUI = ({ opening, phone, mail, facebookLink, youtubeLink, linkedIn
 
           <div className="flex items-center gap-2">
             <EnvelopeIcon className="size-4" />
-            <h2>AA</h2>
             <TextUI tag={"p"} children={mail} fontSize="text-sm" />
           </div>
         </div>
